@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("Screenshot\ \(5\).png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    margin: 60px auto 0;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    
+}
+
+.search button img{
+    width: 16px;  
+}
+
+.clouds-image{
+    height: 200px;
+    width: 200px;
+}
+.tamp, .city{
+    font-size: 40px;
+    font-weight: 400;
+}
+.hum-wind{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.col img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.persent, .wind-unit{
+    font-size: 1.5rem;
+}

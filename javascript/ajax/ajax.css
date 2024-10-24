@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+}
+
+h2{
+    color: brown;
+}
+
+select{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+input{
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+}

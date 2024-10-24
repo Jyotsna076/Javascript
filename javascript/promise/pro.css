@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: #19acac;
+}
+
+h2{
+    margin-top: 1rem;
+    color: brown;
+}
+
+input{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+span{
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}

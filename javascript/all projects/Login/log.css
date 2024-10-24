@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #375555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.form{
+    background-color: #fff;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    visibility: visible;
+}
+
+.Form{
+    visibility: visible;
+}
+
+.form input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid deeppink;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 5px;
+}
+
+.submitBtn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: green;
+    color: #fff;
+}
+
+
+
+.submitBtn:active{
+    background-color: darkgreen;
+}
+
+#popup{
+    background-color: #fff;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    margin-top: 300px;
+    text-align: center;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top, 0.4s;
+    visibility: hidden;
+}
+
+.Popup{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1)
+}
+
+.confirm{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+    background-color: green;
+    color: #fff; 
+}
+
+#congract, #msg{
+    font-size: 18px;
+}

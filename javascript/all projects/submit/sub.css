@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #81aaac;
+    text-align: center;   
+}
+
+
+
+#btn{
+    padding: 15px;
+    border: none;
+        box-shadow: 0 2px 10px;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn{ 
+    visibility: hidden;
+}
+
+#btn:hover{
+    background-color: #dee6e4;
+}
+
+#btn:active{
+    background-color: #babebd;
+}
+
+.msg-container{
+    margin-left: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#congract, button{
+    margin-top: 5rem;
+}
+
+.popup{
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+    top: 0;
+    color: #000;
+    font-weight: bold;
+    transform: translate(-50%, -50%) scale(0.1);
+    height: 15rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    visibility: hidden; 
+    transition: transform 0.4s, top, 0.4s;
+}
+
+.Popup{
+    top: 50%;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1)
+}
+
+button{
+    margin-top: 1rem;
+    width: 85%;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000;
+    background-color: rgb(32, 209, 32);
+    border: none;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0,  0, 0.1);
+    
+}
+
+button:hover{
+    background-color: rgb(33, 184, 101);
+}
+

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: firebrick;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, button{
+    margin-top: 1rem;
+}
+
+button{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    height: 3rem;
+    width: 8rem;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+button:active{
+    background-color: rgb(29, 28, 28);
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+}

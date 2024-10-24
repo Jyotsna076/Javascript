@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;   
+}
+body{
+    background-color: bisque;
+    margin-top: 3rem;
+}
+div{
+    color: brown;
+}
+
+.btn{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+#person{
+    margin-top: 1rem;
+    color: purple;
+    font-weight: bold;
+}
+
+span{
+    
+    color: darkorange;
+}

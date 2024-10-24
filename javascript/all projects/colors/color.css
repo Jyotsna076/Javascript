@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    transition: 2s;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 30rem;
+    height: 13rem;
+    background-color: #F2D398;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    background-color: #ACBED8;
+    width: 20rem;
+    height: 3.5rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px;
+}
+
+button:active{
+    background-color: #8294db;
+}
+

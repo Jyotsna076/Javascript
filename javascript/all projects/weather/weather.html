@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button> <img src="search.png" alt="" class="btn"></button> 
+        </div>
+        <div class="weather">
+            <img src="clouds.png" class="clouds-image">
+            <h1 class="tamp">22°C</h1>
+            <h2 class="city">New York</h2>
+        </div>
+        <div class="hum-wind">
+            <div class="col">
+               <img src="humidity.png" class="humidity">
+             
+               <div>
+                   <p class="persent">64%</p>
+                   <p>Humidity</p>
+                </div> 
+            </div>
+                <div class="col">
+                   <img src="wind.png" class="wind">
+                    <div>
+                      <p class="wind-unit">18 km/h</p>
+                      <p>Wind</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
