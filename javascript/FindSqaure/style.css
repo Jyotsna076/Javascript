@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #6a5acd;
+    text-align: center;
+    color: #fff;
+}
+
+#userinp {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#btn {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #dc143c;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
